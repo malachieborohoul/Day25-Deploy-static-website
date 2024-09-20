@@ -27,14 +27,14 @@ cd Day25-Deploy-static-website
 ```
 ### 2. Initialize Terraform
 ```bash
-    cd envs/dev
-    terraform init
+cd envs/dev
+terraform init
 ```
 
 ### 3.  Review and Apply Changes
 ```bash
-    terraform plan
-    terraform apply
+terraform plan
+terraform apply
 ```
 Terraform will:
 
@@ -91,9 +91,7 @@ Once you have this URL, you can use it to test your site via CloudFront.
 ### 4.  Cleanup
 Don't forget to cleanup. To remove the infrastructure, run:
 ```bash
-    terraform destroy
-
-
+terraform destroy
 ```
 
 ### Contribution
